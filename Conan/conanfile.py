@@ -6,8 +6,8 @@ from conan.tools.files import copy, load
 from conan.tools.cmake import CMake, cmake_layout
 
 class Conan(ConanFile):
-    name            = "template"
-    version         = "x.x"
+    name            = "uart"
+    version         = "1.0"
     user            = "ssitkowx"
     channel         = "stable"
     license         = "freeware"
