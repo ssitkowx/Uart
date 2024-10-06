@@ -7,7 +7,7 @@ from conan.tools.cmake import CMake, cmake_layout
 
 class Conan(ConanFile):
     name            = "uart"
-    version         = "1.0"
+    version         = "1.2"
     user            = "ssitkowx"
     channel         = "stable"
     license         = "freeware"

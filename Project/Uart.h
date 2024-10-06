@@ -21,8 +21,8 @@ class Uart
         Uart () = default;
         ~Uart () = default;
 
-        void Send    (const uint8_t * const vData, const uint16_t vLen) { derivedType.Send (vData, vLen);           }
-        void Receive (uint8_t       * const vData, const uint16_t vLen) { return derivedType.Receive (vData, vLen); }
+        void     Send    (const uint8_t * const vData, const uint16_t vLen) { derivedType.Send (vData, vLen);           }
+        uint16_t Receive (uint8_t       * const vData, const uint16_t vLen) { return derivedType.Receive (vData, vLen); }
 };
 
 ///////////////////////////////////////////////////////////////////////////////
